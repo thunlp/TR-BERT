@@ -2,7 +2,7 @@
 
 Source code and dataset for "TR-BERT: Dynamic Token Reduction for Accelerating BERT Inference".
 
-![model](https://github.com/thunlp/TR-BERT/blob/master/model.png)
+![model](https://github.com/thunlp/TR-BERT/blob/master/model.pdf)
 
 The code is based on huggaface's [transformers](https://github.com/huggingface/transformers). Thanks to them! We will release all the source code in the future.
 
@@ -107,9 +107,9 @@ TriviaQA: `run_triviaqa.py`
 WikiHop: `run_wikihop.py`
 
 
-## Harmonic Coefficient $\lambda$
+## Harmonic Coefficient  
 
-The example $\lambda$ is shown as follows:
+The example harmonic coefficients are shown as follows:
 
 |Dataset | train_rl | train_both |  
 |:-: |:-:|:-:  |
