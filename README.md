@@ -1,6 +1,6 @@
 # TR-BERT
 
-Source code and dataset for "TR-BERT: Dynamic Token Reduction for Accelerating BERT Inference".
+Source code and dataset for "[TR-BERT: Dynamic Token Reduction for Accelerating BERT Inference](https://arxiv.org/abs/2105.11618)".
 
 ![model](https://github.com/thunlp/TR-BERT/blob/master/model.jpg)
 
