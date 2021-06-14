@@ -903,8 +903,8 @@ def evaluate(args, model, tokenizer, prefix=""):
                                 data_dir=args.data_dir,
                                 evaluate=True)
 
-    # Note that DistributedSampler samples randomly    
-    eval_sampler = torch.utils.data.distributed.DistributedSampler(dataset) if args.local_rank != -1  else SequentialSampler(dataset)
+
+    eval_sampler = SequentialSampler(dataset)
 
     eval_dataloader = DataLoader(dataset, sampler=eval_sampler, batch_size=args.eval_batch_size, num_workers=1,
                                     collate_fn=HotpotSegQADatasetForTest.collate_one_doc_and_lists_eval)

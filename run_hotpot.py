@@ -1045,7 +1045,7 @@ def evaluate(args, model, tokenizer, prefix=""):
     args.dev_dataset = os.path.join(args.data_dir, args.predict_file)
     dataset = HotpotDatasetForTest(file_path=args.dev_dataset, tokenizer=tokenizer, max_seq_len=args.max_seq_length)
 
-    eval_sampler = torch.utils.data.distributed.DistributedSampler(dataset) if args.local_rank != -1  else SequentialSampler(dataset)
+    eval_sampler = SequentialSampler(dataset)
 
     eval_dataloader = DataLoader(dataset, sampler=eval_sampler, batch_size=args.eval_batch_size,  num_workers=4,
                                     collate_fn=HotpotDatasetForTest.collate_one_doc_and_lists)
