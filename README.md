@@ -4,7 +4,7 @@ Source code and dataset for "[TR-BERT: Dynamic Token Reduction for Accelerating 
 
 ![model](https://github.com/thunlp/TR-BERT/blob/master/model.jpg)
 
-The code is based on huggaface's [transformers](https://github.com/huggingface/transformers). Thanks to them! We will release all the source code in the future.
+The code is based on huggaface's [transformers](https://github.com/huggingface/transformers). Thanks to them! 
 
 ## Requirement
 Install dependencies and [apex](https://github.com/NVIDIA/apex):
