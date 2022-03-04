@@ -131,7 +131,7 @@ If you use the code, please cite this paper:
 ```
 @inproceedings{ye2021trbert,
   title={TR-BERT: Dynamic Token Reduction for Accelerating BERT Inference},
-  author={Deming Ye, Yankai Lin, Yufei Huang, Maosong Sun},
+  author={Deming Ye and Yankai Lin and Yufei Huang and Maosong Sun},
   booktitle={Proceedings of NAACL 2021},
   year={2021}
 }
