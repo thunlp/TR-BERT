@@ -130,9 +130,30 @@ If you use the code, please cite this paper:
 
 ```
 @inproceedings{ye2021trbert,
-  title={TR-BERT: Dynamic Token Reduction for Accelerating BERT Inference},
-  author={Deming Ye and Yankai Lin and Yufei Huang and Maosong Sun},
-  booktitle={Proceedings of NAACL 2021},
-  year={2021}
+  author    = {Deming Ye and
+               Yankai Lin and
+               Yufei Huang and
+               Maosong Sun},
+  editor    = {Kristina Toutanova and
+               Anna Rumshisky and
+               Luke Zettlemoyer and
+               Dilek Hakkani{-}T{\"{u}}r and
+               Iz Beltagy and
+               Steven Bethard and
+               Ryan Cotterell and
+               Tanmoy Chakraborty and
+               Yichao Zhou},
+  title     = {{TR-BERT:} Dynamic Token Reduction for Accelerating {BERT} Inference},
+  booktitle = {Proceedings of the 2021 Conference of the North American Chapter of
+               the Association for Computational Linguistics: Human Language Technologies,
+               {NAACL-HLT} 2021, Online, June 6-11, 2021},
+  pages     = {5798--5809},
+  publisher = {Association for Computational Linguistics},
+  year      = {2021},
+  url       = {https://doi.org/10.18653/v1/2021.naacl-main.463},
+  doi       = {10.18653/v1/2021.naacl-main.463},
+  timestamp = {Fri, 06 Aug 2021 00:41:32 +0200},
+  biburl    = {https://dblp.org/rec/conf/naacl/YeLHS21.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
